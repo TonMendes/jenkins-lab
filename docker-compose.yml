@@ -1,5 +1,7 @@
 services:
     app001:
+        build: .
+        image: app001-image
         ports:
             - "80:80"
         volumes:
